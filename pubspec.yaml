@@ -1,0 +1,35 @@
+#Current Flutter version 3.3.1 - Dart version 2.18.0   [ On 13 September 2022 (IST) ]
+#Platform android-33, build-tools 33.0.0
+#CocoaPods version 1.11.3
+#Xcode 13.4.1
+
+name: shopland
+description: A new Flutter project.
+publish_to: 'none'
+version: 1.0.0+1
+environment:
+  sdk: '>=2.18.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  #UI Helper
+  persistent_bottom_nav_bar_v2: ^4.2.5
+
+  #State Management
+  get: ^4.6.5
+
+  #Storage
+  shared_preferences: ^2.0.15
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
